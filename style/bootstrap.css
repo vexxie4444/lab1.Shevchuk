@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #d6e7ff;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+}
+
+
+h1, h2 {
+    font-family: "Clicker Script", cursive;
+    color: #a1e9ff;
+    text-shadow: 0 0 15px rgba(0, 200, 255, 0.7),
+                 0 0 35px rgba(0, 140, 255, 0.6);
+}
+
+.game-card {
+    background: #1a1f35;
+    border: 2px solid rgba(0, 200, 255, 0.35); /* легкий неоновий контур */
+    border-radius: 1rem;
+    overflow: hidden;
+    color: #d6e7ff;
+    box-shadow: 0 0 20px rgba(0, 140, 255, 0.25),
+                0 0 8px rgba(0, 200, 255, 0.2);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 0 28px rgba(0, 180, 255, 0.55),
+                0 0 14px rgba(0, 210, 255, 0.4);
+}
+
+.game-card img {
+    height: 220px;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: filter 0.4s ease, transform 0.5s ease;
+}
+
+.game-card:hover img {
+    filter: brightness(100%);
+    transform: scale(1.08);
+}
+
+.card-title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    color: #c7f0ff;
+    text-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
+}
+
+.card-text {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.feedback-card {
+    background: #1c2640;
+    border

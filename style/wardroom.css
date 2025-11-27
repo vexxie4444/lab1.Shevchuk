@@ -1,0 +1,88 @@
+
+.pixell-form {
+  background: #866348;
+  padding: 2rem;
+  border-radius: 0.8rem;
+
+
+  border: 4px solid #00d9ff; 
+  box-shadow:
+    0 0 10px #00d9ff,
+    0 0 20px rgba(0, 217, 255, 0.4);
+
+  font-family: "Press Start 2P", sans-serif;
+  text-align: left;
+}
+
+.pixell-form h1 {
+  color: #c5f4ff;
+  text-shadow: 0 0 6px #00d9ff, 0 0 12px #34dffc;
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.pixell-form p b {
+  color: #c5f4ff;
+  text-shadow: 0 0 4px #00d9ff;
+}
+
+/* checkbox / radio */
+.pixell-form input[type="checkbox"],
+.pixell-form input[type="radio"] {
+  transform: scale(1.2);
+  accent-color: #00d9ff; /
+}
+
+/* labels */
+.pixell-form label {
+  color: #c5f4ff;
+  font-size: 0.95rem;
+}
+
+/* кнопки */
+.pixell-form input[type="submit"],
+.pixell-form input[type="reset"] {
+  font-family: "Press Start 2P", sans-serif;
+  padding: 0.8rem 1.2rem;
+  margin-top: 1rem;
+  border: 3px solid #00d9ff;
+
+  background: #1e2b47; 
+  color: #c5f4ff;
+
+  box-shadow: 0 0 8px #00d9ff inset;
+  transition: 0.15s;
+}
+
+.pixell-form input[type="submit"]:hover,
+.pixell-form input[type="reset"]:hover {
+  background: #00d9ff;
+  color: #001220;
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px #34dffc;
+}
+
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* кнопка "Нагору" */
+.scroll-top {
+  font-family: "Press Start 2P";
+  font-size: 0.8rem;
+  color: #c5f4ff;
+  text-decoration: none;
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+
+  text-shadow: 0 0 5px #00d9ff;
+}
+
+.scroll-top:hover {
+  color: #ffffff;
+  text-shadow: 0 0 12px #34dffc;
+}
